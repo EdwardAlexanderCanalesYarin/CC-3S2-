@@ -38,6 +38,13 @@ La prueba unitaria en sí es el método `convertsToLowerCase()`. Este método ti
 Primero el paso `arrange` es para que el código pueda ejecutarse. Esto implica la creación de los objetos necesarios, el suministro de la configuración necesaria y la conexión de los objetos y funciones dependientes. A veces, no necesitamos este paso, por ejemplo, si estamos probando una función independiente simple. 
 
 En el código de ejemplo, ¿cuál es el paso `Arrange`? 
+# RESPUESTA
+El paso Arrange para este caso son las líneas de código:
+var username = new Username("SirLara35179");
+String actual = username.asLowerCase();
+assertThat(actual).isEqualTo("sirLara35179");
+// Ahí se crea los objetos y se hace la conexión de objetos con funciones dependientes.
+
 
 El paso `Act` sigue. Esta es la parte en la que hacemos que el código bajo prueba actúe: ejecutamos ese código. Esta es siempre una llamada al código bajo prueba, proporcionando los parámetros necesarios y organizando la captura de los resultados. 
 
