@@ -41,7 +41,6 @@ En el código de ejemplo, ¿cuál es el paso `Arrange`?
 # RESPUESTA
 El paso Arrange para este caso son las líneas de código:
 - var username = new Username("SirLara35179");
-- String actual = username.asLowerCase();
 // Ahí se crea los objetos y se hace la conexión de objetos con funciones dependientes.
 
 
@@ -49,7 +48,7 @@ El paso `Act` sigue. Esta es la parte en la que hacemos que el código bajo prue
 
 En el código de ejemplo, ¿cuál es el paso `Act`? 
 # RESPUESTA
-En este caso el "Act" seria representado por la linea assertThat(actual).isEqualTo("sirLara35179"); ya que estamos pasando el parametro de prueba.
+En este caso el "Act" seria representado por la linea String actual = username.asLowerCase(); estamos pasando los datos a verificar a la variable actual
 
 Completar nuestra prueba es el último paso `Assert`.  `AssertThat(actual).isEqualTo("sirLara35179");`  es la línea del paso `assert` aquí. Se utiliza el método `assertThat()` y el método `isEqualTo()` de la biblioteca de aserciones fluidas `AssertJ`. 
 
@@ -62,7 +61,8 @@ Revisa: https://www.jetbrains.com/help/idea/tdd-with-intellij-idea.html
 
 
 ¿Puedes ejecutar la prueba del código anterior?, ¿la prueba pasa, sino puedes usar TDD?.
-
+# RESPUESTA
+Si se puede ejecutar la prueba, la prueba satisface las expectativas del parametro pedido.
 
 Las pruebas más útiles también siguen el principios `FIRST` y usan una aserción por prueba.
 
