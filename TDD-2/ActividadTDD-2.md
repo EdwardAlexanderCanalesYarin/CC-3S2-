@@ -42,14 +42,14 @@ En el código de ejemplo, ¿cuál es el paso `Arrange`?
 El paso Arrange para este caso son las líneas de código:
 - var username = new Username("SirLara35179");
 - String actual = username.asLowerCase();
-- assertThat(actual).isEqualTo("sirLara35179");
 // Ahí se crea los objetos y se hace la conexión de objetos con funciones dependientes.
 
 
 El paso `Act` sigue. Esta es la parte en la que hacemos que el código bajo prueba actúe: ejecutamos ese código. Esta es siempre una llamada al código bajo prueba, proporcionando los parámetros necesarios y organizando la captura de los resultados. 
 
 En el código de ejemplo, ¿cuál es el paso `Act`? 
-
+# RESPUESTA
+En este caso el "Act" seria representado por la linea assertThat(actual).isEqualTo("sirLara35179"); ya que estamos pasando el parametro de prueba.
 
 Completar nuestra prueba es el último paso `Assert`.  `AssertThat(actual).isEqualTo("sirLara35179");`  es la línea del paso `assert` aquí. Se utiliza el método `assertThat()` y el método `isEqualTo()` de la biblioteca de aserciones fluidas `AssertJ`. 
 
