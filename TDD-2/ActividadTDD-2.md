@@ -40,9 +40,9 @@ Primero el paso `arrange` es para que el código pueda ejecutarse. Esto implica 
 En el código de ejemplo, ¿cuál es el paso `Arrange`? 
 # RESPUESTA
 El paso Arrange para este caso son las líneas de código:
-var username = new Username("SirLara35179");
-String actual = username.asLowerCase();
-assertThat(actual).isEqualTo("sirLara35179");
+- var username = new Username("SirLara35179");
+- String actual = username.asLowerCase();
+- assertThat(actual).isEqualTo("sirLara35179");
 // Ahí se crea los objetos y se hace la conexión de objetos con funciones dependientes.
 
 
